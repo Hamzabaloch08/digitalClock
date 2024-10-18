@@ -3,6 +3,7 @@ body {
   color: #fff;
   font-family: monospace;
 }
+
 .center {
   display: flex;
   height: 100vh;
@@ -23,4 +24,18 @@ body {
   font-family: "Orbitron", sans-serif;
   color: black;
   font-weight: 600;
+}
+
+@media screen and (max-width: 425px) {
+  #clock {
+    font-size: 32px;
+    padding: 15px 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #clock {
+    font-size: 28px;
+    padding: 12px 30px;
+  }
 }
